@@ -4,6 +4,10 @@ import PopularProducts from './PopularProducts'
 import Featured_card from './Featured_card'
 import DiscountSection from './DiscountSection'
 import Products from './Products'
+import Features from './Features'
+import Delivery from './Delivery'
+import Sponsor_gallery from './Sponsor_gallery'
+import Footer from './Footer'
 function Home() {
   return (
     <>
@@ -17,6 +21,10 @@ function Home() {
           <button className='mb-10 btn_border'>View More</button>
         </div>
       </section>
+      <Features />
+      <Delivery />
+      <Sponsor_gallery />
+      <Footer />
     </>
   )
 }
