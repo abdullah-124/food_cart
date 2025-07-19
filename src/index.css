@@ -30,6 +30,7 @@ body{
 .btn_border:hover::after{
   content: '';
   height: calc(100% + 12px);
+  transition: all .5s;
 
   @apply border border-rose-500 absolute top-1/2 translate-y-[-50%] left-2  w-full rounded-lg -z-1;
 }

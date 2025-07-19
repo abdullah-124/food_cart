@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import { CiShoppingCart } from 'react-icons/ci'
+import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div className="sticky top-3 z-100 my-2 rounded-lg navbar bg-base-100 shadow-sm">
@@ -11,8 +12,8 @@ function Navbar() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/products/'>Products</Link></li>
           <li><a>Contact</a></li>
         </ul>
       </div>
@@ -25,9 +26,9 @@ function Navbar() {
           <ul
             tabIndex={0}
             className="menu right-0 menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/products/'>Products</Link></li>
+            <li><a>Contact</a></li>
           </ul>
         </div>
       </div>

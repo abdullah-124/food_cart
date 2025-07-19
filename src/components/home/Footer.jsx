@@ -10,6 +10,15 @@ function Footer() {
                     <p>Tuesday – Saturday: 12:00pm – 23:00pm <br />Closed on Sunday</p>
                     <p>5 star rated on TripAdvisor</p>
                 </div>
+                {/* newslatter */}
+                <div className='sm:text-start text-center'>
+                    <h5 className='inline-block text-2xl font-bold border-b border-yellow-500'>Newslatter</h5>
+                    <form action="">
+                        <p className='my-5'>Get recent news and updates.</p>
+                        <input type="text" placeholder="Type here" className="input focus:outline-none" />
+                        <button className='block btn_border my-6'>Subscribe</button>
+                    </form>
+                </div>
                 <div className='  flex justify-evenly'>
                     <div className='text-start'>
                         <h5 className='inline-block text-2xl font-bold border-b border-yellow-500'>About</h5>
@@ -33,15 +42,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                {/* newslatter */}
-                <div className='sm:text-start text-center'>
-                    <h5 className='inline-block text-2xl font-bold border-b border-yellow-500'>Newslatter</h5>
-                    <form action="">
-                        <p className='my-5'>Get recent news and updates.</p>
-                        <input type="text" placeholder="Type here" className="input focus:outline-none" />
-                        <button className='block btn_border my-6'>Subscribe</button>
-                    </form>
-                </div>
+                
             </div>
         </footer>
     )

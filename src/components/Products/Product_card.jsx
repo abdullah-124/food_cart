@@ -3,8 +3,8 @@ import React from 'react'
 function Product_card({ product }) {
     const { name, price, discount, image } = product;
   return (
-    <div className='overflow-hidden rounded-lg hover:shadow-xl transition-shadow duration-300'>
-      <div className='h-40 bg-rose-50 p-4'>
+    <div className='overflow-hidden rounded-lg border border-gray-200 hover:shadow-lg transition-all duration-500'>
+      <div className='h-40 p-4'>
         <img className='w-full h-full object-contain' src={`/src/assets/items/${image}`} alt="" />
       </div>
       <div className='text-center py-4 px-1'>
