@@ -23,7 +23,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className='text-end'>
-                        <h5 className='inline-block text-center text-2xl font-bold border-b border-yellow-500'>About</h5>
+                        <h5 className='inline-block text-center text-2xl font-bold border-b border-yellow-500'>Menu</h5>
                         <ul>
                             <li>Steaks</li>
                             <li>Burgers</li>
@@ -34,7 +34,7 @@ function Footer() {
                     </div>
                 </div>
                 {/* newslatter */}
-                <div className='text-start'>
+                <div className='sm:text-start text-center'>
                     <h5 className='inline-block text-2xl font-bold border-b border-yellow-500'>Newslatter</h5>
                     <form action="">
                         <p className='my-5'>Get recent news and updates.</p>
