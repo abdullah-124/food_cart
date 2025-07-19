@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Fried Chicken & Fries",
+    "price": 320,
+    "discount": 10,
+    "image": "item1.png",
+    "rating": 4.5,
+    "category": "Fast Food"
+  },
+  {
+    "id": 2,
+    "name": "French Fries",
+    "price": 120,
+    "discount": 0,
+    "image": "item2.png",
+    "rating": 4.2,
+    "category": "Snacks"
+  },
+  {
+    "id": 3,
+    "name": "Cheese Pizza",
+    "price": 450,
+    "discount": 5,
+    "image": "item3.png",
+    "rating": 4.6,
+    "category": "Pizza"
+  },
+  {
+    "id": 4,
+    "name": "Double Beef Burger",
+    "price": 350,
+    "discount": 15,
+    "image": "item4.png",
+    "rating": 4.8,
+    "category": "Burger"
+  },
+  {
+    "id": 5,
+    "name": "Tacos with Salsa",
+    "price": 280,
+    "discount": 10,
+    "image": "item5.png",
+    "rating": 4.3,
+    "category": "Mexican"
+  },
+  {
+    "id": 6,
+    "name": "Burger Combo Meal",
+    "price": 499,
+    "discount": 20,
+    "image": "item6.png",
+    "rating": 4.7,
+    "category": "Combo"
+  },
+  {
+    "id": 7,
+    "name": "Steak & Veggies",
+    "price": 700,
+    "discount": 5,
+    "image": "item7.png",
+    "rating": 4.4,
+    "category": "Grill"
+  },
+  {
+    "id": 8,
+    "name": "Veggie Pizza",
+    "price": 420,
+    "discount": 0,
+    "image": "item8.png",
+    "rating": 4.0,
+    "category": "Pizza"
+  },
+  {
+    "id": 9,
+    "name": "Cheesy Pasta",
+    "price": 390,
+    "discount": 10,
+    "image": "item9.png",
+    "rating": 4.6,
+    "category": "Pasta"
+  },
+  {
+    "id": 10,
+    "name": "Chicken Wraps",
+    "price": 240,
+    "discount": 5,
+    "image": "item10.png",
+    "rating": 4.1,
+    "category": "Wrap"
+  },
+  {
+    "id": 11,
+    "name": "Hot Coffee",
+    "price": 120,
+    "discount": 0,
+    "image": "item11.png",
+    "rating": 4.9,
+    "category": "Beverage"
+  },
+  {
+    "id": 12,
+    "name": "Crispy Chicken Burger",
+    "price": 300,
+    "discount": 15,
+    "image": "item12.png",
+    "rating": 4.5,
+    "category": "Burger"
+  },
+  {
+    "id": 13,
+    "name": "Pepperoni Pizza",
+    "price": 460,
+    "discount": 10,
+    "image": "item13.png",
+    "rating": 4.7,
+    "category": "Pizza"
+  },
+  {
+    "id": 14,
+    "name": "Grilled Salad Bowl",
+    "price": 350,
+    "discount": 0,
+    "image": "item14.png",
+    "rating": 4.3,
+    "category": "Healthy"
+  },
+  {
+    "id": 15,
+    "name": "Grilled Salmon with Lemon",
+    "price": 620,
+    "discount": 12,
+    "image": "item15.png",
+    "rating": 4.8,
+    "category": "Seafood"
+  }
+]

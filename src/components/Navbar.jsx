@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 import { CiShoppingCart } from 'react-icons/ci'
 function Navbar() {
   return (
-    <div className="sticky top-3 my-2 rounded-lg navbar bg-base-100 shadow-sm">
+    <div className="sticky top-3 z-100 my-2 rounded-lg navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
         <a className="">
           <img className='h-12' src={logo} alt="logo" />

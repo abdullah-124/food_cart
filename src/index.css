@@ -33,3 +33,6 @@ body{
 
   @apply border border-rose-500 absolute top-1/2 translate-y-[-50%] left-2  w-full rounded-lg -z-1;
 }
+.popular_card{
+  @apply shadow-lg p-5 rounded-lg hover:shadow-2xl transition-all duration-300 flex flex-col justify-between items-center
+}

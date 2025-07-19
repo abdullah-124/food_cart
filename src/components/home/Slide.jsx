@@ -7,7 +7,7 @@ import bg3 from '../../assets/bg3.png'
 function Slide() {
     return (
         <section className='relative'>
-            <div className='absolute w-full h-12 z-100 bottom-0 flex justify-center items-center gap-1'>
+            <div className='absolute w-full h-12 z-20 bottom-0 flex justify-center items-center gap-1'>
                 <a href="#slide1" className='w-4 h-4 rounded-full border bg-white'></a>
                 <a href="#slide2" className='w-4 h-4 rounded-full border bg-white'></a>
                 <a href="#slide3" className='w-4 h-4 rounded-full border bg-white'></a>
@@ -17,7 +17,7 @@ function Slide() {
                     <img
                         src={bg1}
                         className="slider_img" />
-                    <div className='z-10 md:flex lg:w-[80vw] md:w-[90vw] mx-auto justify-evenly items-center px-10'>
+                    <div className='z-10 flex md:flex-row flex-col lg:w-[80vw] md:w-[90vw] mx-auto justify-center items-center px-10'>
                         <div className='w-full'>
                             <h1 className=''>
                                 <p className='text-rose-500 text-xl font-medium'>Fastest Delivery & Easy Pickup</p>
@@ -30,7 +30,7 @@ function Slide() {
                             <button className='btn_border text-sm my-5'>View Our Menu</button>
                         </div>
                         <div>
-                            <img className='w-full ' src={bgr1} alt="burger image" />
+                            <img className='w-full' src={bgr1} alt="burger image" />
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function Slide() {
                     <img
                         src={bg2}
                         className="slider_img" />
-                    <div className='z-10 md:flex lg:w-[80vw] md:w-[90vw] mx-auto justify-evenly items-center px-10'>
+                    <div className='z-10 flex md:flex-row flex-col lg:w-[80vw] md:w-[90vw] mx-auto justify-evenly items-center px-10'>
                         <div className='w-full'>
                             <h1 className=''>
                                 <h2 className='text-black font-semibold text-7xl'>
