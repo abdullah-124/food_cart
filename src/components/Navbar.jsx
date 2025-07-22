@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '/assets/logo.png'
 import { CiShoppingCart } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
 function Navbar() {
@@ -14,7 +13,7 @@ function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><Link to='/'>Home</Link></li>
-          <li><Link to='/products/'>Products</Link></li>
+          <li><Link to='products/'>Products</Link></li>
           <li><a>Contact</a></li>
         </ul>
       </div>
