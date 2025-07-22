@@ -14,7 +14,7 @@ function Delivery() {
                     </button>
                 </div>
                 <div>
-                    <img src="/src/assets/delivery.png" alt="delivery man" />
+                    <img src="/assets/delivery.png" alt="delivery man" />
                 </div>
             </div>
         </div>

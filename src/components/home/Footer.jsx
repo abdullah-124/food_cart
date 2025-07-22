@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <footer className='text-sm w-full relative'>
-            <img className='absolute top-0 left-0 -z-10 w-full h-full object-cover' src='/src/assets/footer.png' alt='Footer' />
+            <img className='absolute top-0 left-0 -z-10 w-full h-full object-cover' src='/assets/footer.png' alt='Footer' />
             <div className='lg:w-3/4 mx-auto grid md:grid-cols-3 gap-4 sm:grid-cols-2 grid-cols-1 py-10 '>
                 <div className='p-4 rounded-2xl bg-rose-500 flex flex-col justify-between text-white'>
                     <h3 className='text-lg font-semibold'>Food Cart</h3>

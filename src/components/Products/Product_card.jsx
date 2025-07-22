@@ -5,7 +5,7 @@ function Product_card({ product }) {
   return (
     <div className='overflow-hidden rounded-lg border border-gray-200 hover:shadow-lg transition-all duration-500'>
       <div className='h-40 p-4'>
-        <img className='w-full h-full object-contain' src={`/src/assets/items/${image}`} alt="" />
+        <img className='w-full h-full object-contain' src={`/assets/items/${image}`} alt="" />
       </div>
       <div className='text-center py-4 px-1'>
         {
