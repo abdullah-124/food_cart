@@ -12,7 +12,7 @@ function DiscountSection() {
                     <button className='btn_border mt-5 flex items-center gap-2'><CiDeliveryTruck /> Order Now</button>
                 </div>
                 <div className='w-full'>
-                    <img src="/assets/chicken_discount.png" alt="chicken" />
+                    <img src="./assets/chicken_discount.png" alt="chicken" />
                 </div>
             </div>
         </div>

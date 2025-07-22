@@ -6,8 +6,9 @@ function Navbar() {
   return (
     <div className="sticky top-3 z-100 my-2 rounded-lg navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <a className="">
-          <img className='h-12' src={logo} alt="logo" />
+        <a className="text-xl font-bold text-rose-500">
+          {/* <img className='h-12' src={logo} alt="logo" /> */}
+          <h2>FOOD<span className='text-black'>CART</span></h2>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
