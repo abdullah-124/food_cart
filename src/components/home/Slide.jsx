@@ -21,7 +21,7 @@ function Slide() {
                         <div className='w-full'>
                             <h1 className=''>
                                 <p className='text-rose-500 text-xl font-medium'>Fastest Delivery & Easy Pickup</p>
-                                <h2 className='text-yellow-500 text-7xl font-bold my-5'>Kings Burger</h2>
+                                <span className='text-yellow-500 text-7xl font-bold my-5'>Kings Burger</span>
                                 <p className='text-white font-thin mt-5'>
                                     Good food starts with good ingridients. We only
                                     bring you the best.
@@ -41,10 +41,10 @@ function Slide() {
                     <div className='z-10 flex md:flex-row flex-col lg:w-[80vw] md:w-[90vw] mx-auto justify-evenly items-center px-10'>
                         <div className='w-full'>
                             <h1 className=''>
-                                <h2 className='text-black font-semibold text-7xl'>
+                                <span className='text-black font-semibold text-7xl'>
                                     Best Food for
                                     <p className='bg-yellow-500 rounded-3xl px-5 -translate-x-5 inline-block'>Best Restaurants</p>
-                                </h2>
+                                </span>
                                 <p className='my-5'>Since 1990 to present</p>
                             </h1>
                             <form action="" className='md:w-2/3 w-full grid grid-cols-2 items-center gap-3'>
@@ -67,9 +67,9 @@ function Slide() {
                     <div className='flex px-10 lg:w-[80vw] md:w-[90vw] mx-auto justify-between items-center z-10'>
                         <div className='text-white md:w-1/2'>
                             <h1>
-                                <h2 className='text-5xl font-semibold '>The Perfect Space to
+                                <span className='text-5xl font-semibold '>The Perfect Space to
                                     Enjoy Fantastic Food
-                                </h2>
+                                </span>
                                 <p className='my-5 font-thin'> Festive dining at Farthings where we are strong believers in
                                     using the very best produce</p>
                             </h1>
