@@ -3,7 +3,7 @@ import { CiShoppingCart } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
 function Navbar() {
   return (
-    <div className="backdrop-blur-3xl sticky top-0 z-100 my-2 rounded-b-lg navbar shadow-sm">
+    <div className="bg-base-100 sticky top-0 z-100 my-2 rounded-b-lg navbar shadow-sm">
       <div className="navbar-start">
         <a className="text-xl font-bold text-rose-500">
           {/* <img className='h-12' src={logo} alt="logo" /> */}
