@@ -5,7 +5,7 @@ function Products({ limit = null  }) {
     const [products, setProducts] = React.useState([]);
     React.useEffect(() => {
         // Fetch products from an API or a local file
-        fetch('/items.json')
+        fetch(`${import.meta.env.BASE_URL}items.json`)
             .then(response => response.json())
             .then(data => {
                 setProducts(data)

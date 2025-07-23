@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <section className='my-5 rounded-lg overflow-hidden'>
           <Routes>
-            <Route path='/' element={<Home/>} />
+            <Route path='/food_cart/' element={<Home/>} />
             <Route path='/products/' element={<Products/>} />
           </Routes>
         </section>
