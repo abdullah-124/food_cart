@@ -13,7 +13,7 @@ function Product_card({ product }) {
             <p className='p-1 bg-yellow-500 rounded'>-{discount}%</p>
             <p>{price - (price * discount / 100)}$</p>
             <del className='text-gray-500'>{price}$</del>
-        </div> : <p className='text-sm font-bold'>{price}$</p>
+        </div> : <p className='text-sm font-bold'>{price}৳</p>
         }
         <h3 className='font-semibold mt-2'>{name}</h3>
       </div>

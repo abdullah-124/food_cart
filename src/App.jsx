@@ -14,7 +14,7 @@ function App() {
         <section className='my-5 rounded-lg overflow-hidden'>
           <Routes>
             <Route path='/food_cart/' element={<Home/>} />
-            <Route path='/products/' element={<Products/>} />
+            <Route path='/food_cart/products/' element={<Products/>} />
           </Routes>
         </section>
       </main>
